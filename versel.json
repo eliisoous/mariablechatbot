@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "buildCommand": null,
+    "outputDirectory": ".",
+    "functions": {
+      "api/**/*": {
+        "memory": 128
+      }
+    },
+    "routes": [
+      { "handle": "filesystem" }
+    ]
+  }
